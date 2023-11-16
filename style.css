@@ -1,0 +1,97 @@
+ body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding-top: 1%;
+            padding-left: 3%;
+        }
+
+        nav {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            overflow: hidden; 
+        }
+
+        h2 {
+            margin: 0;
+            float: left; 
+            font-size: 3vh;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            margin-left: 5px;
+            padding: 0;
+            float: left; 
+        }
+
+        li {
+            margin: 0 15px;
+            display: inline; 
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(8, 8, 8);
+        }
+        
+        .buttons {
+            margin-top: 10px;
+            text-align: right;
+            padding: 8px 15px;
+            margin: 0 10px;
+            cursor: pointer;
+            
+        }
+
+        button {
+            padding: 8px 15px;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+        
+        .left-side{
+            float: left;
+            position: relative;
+            left: 10%;
+            
+        }
+        .right-side{
+            float: right;
+            position: relative;
+            right: 20%;
+            
+        }
+        .right-side img {
+            max-height: 60vh;
+            max-width: 50vw;
+        }
+        h1{
+            font-size: 7vh;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .content{
+            margin-top: 4%;
+        }
+        .images{
+            margin-top: 20%;
+            justify-content: space-between;
+            
+        }
+        #Learn{
+            background-color: black;
+            color: #ffffff;
+            border-radius: 10%;
+            border: none;
+            margin-top: 5%;
+        }
+        .login{
+            background-color: #ffffff;
+            border: none;
+        }
+        .register{
+            border-radius: 10px;
+            border-width: 1px;
+            background-color: #ffffff;
+        }
